@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffcc99;
+}
+
+.xpress_about_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.xpress_about_title {
+    color: #ff3f00;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.xpress_about_content {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: aliceblue;
+    line-height: 1.5rem;
+}
+
+.xpress_about_content img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.xpress_about_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.xpress_about_footer a {
+    text-decoration: underline;
+    color: #0000ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

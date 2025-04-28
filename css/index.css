@@ -1,0 +1,28 @@
+body {
+    background-color: #ffcc99;
+    text-align: center;
+}
+
+h1 {
+    color: #ff3f00;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.top-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-img img {
+    margin-bottom: 10px;
+}
