@@ -1,28 +1,105 @@
-body {
-    background-color: #ffcc99;
-    text-align: center;
-}
+@charset "UTF-8";
 
-h1 {
-    color: #ff3f00;
-    display: block;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-table {
-    margin: 0 auto;
-}
-
-.top-img {
+.xpress_top_header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 0 2rem 0;
+    gap: 1.5rem;
 }
 
-.top-img img {
-    margin-bottom: 10px;
+.xpress_top_title {
+    color: #ff3f00;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.xpress_top_title h1 {
+    font-size: 3rem;
+}
+
+.xpress_top_title h2 {
+    font-size: 1.5rem;
+}
+
+.xpress_top_header_img {
+    width: 36rem;
+}
+
+.xpress_top_header_img img {
+    width: 100%;
+    height: auto;
+}
+
+.xpress_top_link {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    max-width: 48rem;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.xpress_top_link_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 33%;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 2px solid #7d2811;
+    background-color: #fff;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.xpress_top_link_item:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.xpress_top_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 48rem;
+    margin: 2rem auto 0 auto;
+    padding: 1rem 0 0 0;
+    border-top: 1px solid #7d2811;
+    gap: 1.5rem;
+}
+
+.xpress_top_footer a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 1.25rem;
+}
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+    .xpress_top_header_img {
+        width: 100%;
+    }
+
+    .xpress_top_title h1 {
+        font-size: 1.5rem;
+    }
+
+    .xpress_top_title h2 {
+        font-size: 1rem;
+    }
+
+    .xpress_top_link {
+        flex-direction: column;
+    }
+
+    .xpress_top_link_item {
+        width: 90%;
+    }
 }

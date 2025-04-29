@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.zen-maru-gothic-regular {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zen-maru-gothic-bold {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    font-family: "Zen Maru Gothic", serif;
+}
+
+body {
+    background-color: #ffcc99;
+    padding: 2rem;
+    color: #7d2811;
+}
+
+.xpress_content {
+    max-width: 1024px;
+    background-color: #fff6ed;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 0.75rem;
+}
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+    .xpress_content {
+        padding: 1rem;
+    }
+}
