@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.xpress_train_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 36rem;
+    gap: 1rem;
+}
+
+.xpress_train_title {
+    color: #ff3f00;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
